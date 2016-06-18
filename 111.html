@@ -4,31 +4,10 @@
 
 </head>
 <body>
+<div style="width: 400px; height: 200px; background-color: red;">哈哈哈哈</div>
 </body>
 <script type="text/javascript">
-var arr = [];
-for (var i = 0; i < 10; i++ ) {
-//	arr[i] = Math.floor(Math.random() * 15 +15);
-	arr[i] = parseInt(Math.random() * 15 +15) ;
-	
-}
-document.write(arr);
-var temp = 0;
 
-for (var i = 0 ; i < 10 - 1; i++) {
-for (var j = 0 ; j < 10 - 1 - i; j++) {
-	  if(arr[j] < arr[j+1]){
-	  	var temp = arr[j];
-	  	arr[j]= arr[j+1];
-	  	arr[j+1] = temp;
-	  }
-	
-} }
-
-
-
-document.write("<br>");
-document.write(arr);
 </script>
 
 </html>
